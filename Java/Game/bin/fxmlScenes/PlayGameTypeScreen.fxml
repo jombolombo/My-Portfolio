@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="600.0" style="-fx-border-color: #3333ff; -fx-border-width: 7; -fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PlayGameTypeController">
+    <children>
+		<Button fx:id="playBaseButton" defaultButton="true" layoutX="10.0" layoutY="100.0" mnemonicParsing="false" onAction="#handlePlayBaseAction" prefHeight="70.0" prefWidth="400.0" style="-fx-background-color: black;" text="PLAY BASE LEVELS" textFill="#d0ff00">
+  			<font>
+            	<Font name="Broadway" size="30.0" />
+        	</font>
+         	<effect>
+            	<Glow level="1.0" />
+        	</effect>
+       	</Button>
+       	<Button fx:id="playUserMadeButton" defaultButton="true" layoutX="10.0" layoutY="250.0" mnemonicParsing="false" onAction="#handlePlayUserMadeAction" prefHeight="132.0" prefWidth="500.0" style="-fx-background-color: black;" text="PLAY USER-MADE LEVELS" textFill="#d0ff00">
+  			<font>
+            	<Font name="Broadway" size="30.0" />
+        	</font>
+         	<effect>
+            	<Glow level="1.0" />
+        	</effect>
+       	</Button>
+       	<Button fx:id="backButton" cancelButton="true" layoutX="230.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleBackAction" prefHeight="61.0" prefWidth="142.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Back" textFill="#d0ff00">
+        	<font>
+            	<Font name="Broadway" size="25.0" />
+         	</font>
+         	<effect>
+            	<Glow level="1.0" />
+         	</effect>
+      	</Button>  
+    </children>
+</AnchorPane>

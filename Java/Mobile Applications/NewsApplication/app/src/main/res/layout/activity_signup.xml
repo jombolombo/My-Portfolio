@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_background"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Signup_label"
+        android:textColor="@color/mainColor"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/side_margins"
+        android:layout_marginEnd="@dimen/side_margins"
+        android:clickable="true"
+        android:onClick="register"
+        android:text="@string/registor_button"
+        android:theme="@style/Theme.MaterialComponents"
+        app:backgroundTint="@color/mainColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="453dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="1.0">
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="@string/firstname_hint"
+            android:inputType="textPersonName"
+            android:autofillHints="AUTOFILL_HINT_PERSON_NAME_GIVEN" />
+
+        <TextView
+            android:id="@+id/firstname_error"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/textView_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:textColor="@color/red" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="@string/lastname_hint"
+            android:inputType="textPersonName"
+            android:autofillHints="AUTOFILL_HINT_PERSON_NAME_FAMILY" />
+
+        <TextView
+            android:id="@+id/lastname_error"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/textView_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:textColor="@color/red" />
+
+        <EditText
+            android:id="@+id/emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="@string/email_address_hint"
+            android:inputType="textEmailAddress"
+            android:autofillHints="AUTOFILL_HINT_NEW_USERNAME " />
+
+        <TextView
+            android:id="@+id/email_error"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/textView_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:textColor="@color/red" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:autofillHints="AUTOFILL_HINT_NEW_PASSWORD" />
+
+        <TextView
+            android:id="@+id/password_error"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/textView_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:textColor="@color/red" />
+
+        <EditText
+            android:id="@+id/rePassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="@string/re_enter_password_hint"
+            android:inputType="textPassword"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/re-enter_password-error"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/textView_height"
+            android:layout_marginStart="@dimen/side_margins"
+            android:layout_marginEnd="@dimen/side_margins"
+            android:textColor="@color/red" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

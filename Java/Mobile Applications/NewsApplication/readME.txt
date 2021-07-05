@@ -1,0 +1,1 @@
+In res in strings.xml add a firebase api key to get this application to work as intended, and find get an api key from newsapi.org and place this api key  in the requests in the MyNewsFragment and HeadlinesFragment.

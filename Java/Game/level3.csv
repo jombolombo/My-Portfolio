@@ -1,0 +1,16 @@
+20,15,,,,,,,,,,,,,,,,,,
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
+wall,goal,floor,floor,floor,floor,floor,floor,floor,floor,wall,player,floor,floor,floor,floor,floor,floor,token,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,enemy:wall:a:l,floor,floor,enemy:wall:a:d,wall,wall,wall,floor,floor,wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,help:Watch out for the enemies. Observe their patterns to be able to predict where they will go,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall,token,floor,floor,floor,floor,floor,floor,token,wall
+wall,water,water,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,floor,wall,wall,wall,wall
+wall,flippers,floor,floor,floor,floor,floor,floor,floor,door:token:3,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,floor,wall,wall,wall,wall,wall,wall,wall,wall,wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,enemy:wall:a:d,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,wall,wall,wall,wall,wall,floor,floor,wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall

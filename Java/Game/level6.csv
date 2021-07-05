@@ -1,0 +1,15 @@
+15,14,,,,,,,,,,,,,
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
+wall,water,water,water,water,water,water,water,floor,floor,floor,floor,door:red,goal,wall
+wall,water,water,water,water,water,water,water,floor,floor,floor,floor,wall,wall,wall
+wall,water,water,water,water,water,water,water,floor,floor,floor,floor,floor,floor,wall
+wall,door:blue,wall,wall,wall,wall,water,water,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,wall,water,water,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,wall,floor,floor,floor,floor,key:red,floor,floor,floor,wall
+wall,floor,floor,floor,floor,wall,floor,floor,enemy:dumb,floor,floor,floor,enemy:smart,floor,wall
+wall,floor,floor,floor,floor,wall,wall,wall,wall,floor,floor,floor,wall,wall,wall
+wall,floor,floor,floor,floor,wall,player,flippers,water,floor,floor,floor,water,water,wall
+wall,floor,floor,floor,floor,wall,wall,wall,wall,floor,floor,floor,wall,water,wall
+wall,floor,key:blue,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,water,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,water,wall
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall

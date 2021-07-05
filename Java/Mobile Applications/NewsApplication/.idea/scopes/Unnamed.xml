@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Unnamed" pattern="src[News_Application.app]:com.example.newsapplication.*&amp;&amp;!src[News_Application.app]:com.example.newsapplication.BuildConfig||src[News_Application.app]:com.example.newsapplication.fragments.*||src[News_Application.app]:com.example.newsapplication.adaptors.*" />
+</component>

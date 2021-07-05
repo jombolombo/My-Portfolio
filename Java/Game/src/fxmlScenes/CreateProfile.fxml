@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black; -fx-border-color: blue; -fx-border-width: 7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreateProfileController">
+   <children>
+      <TextField fx:id="nameBox" alignment="CENTER" layoutX="157.0" layoutY="160.0" prefHeight="80.0" prefWidth="286.0" promptText="Enter name" style="-fx-background-color: black;" styleClass="color: yellow" AnchorPane.leftAnchor="157.0">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </TextField>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="157.0" layoutY="94.0" prefHeight="66.0" prefWidth="286.0" text="Name" textFill="#ccff00" AnchorPane.leftAnchor="157.0">
+         <font>
+            <Font name="Broadway" size="45.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Button fx:id="confirmButton" defaultButton="true" layoutX="75.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleConfirmAction" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: black; -fx-border-color: blue; -fx-border-width: 3;" text="Confirm" textFill="#ddff00" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="75.0">
+         <font>
+            <Font name="Broadway" size="12.0" />
+         </font></Button>
+      <Button fx:id="cancelButton" cancelButton="true" layoutX="417.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleCancelAction" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: black; -fx-border-color: blue; -fx-border-width: 3;" text="Cancel" textFill="#c3ff00" AnchorPane.bottomAnchor="44.0" AnchorPane.rightAnchor="75.0">
+         <font>
+            <Font name="Broadway" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

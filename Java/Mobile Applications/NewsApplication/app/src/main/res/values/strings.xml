@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">News Application</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login_forgot_login_details_link">Forgotten Password?</string>
+    <string name="login_page_signup_button">Sign Up</string>
+    <string name="email_hint">"   Email"</string>
+    <string name="password_hint">  Password</string>
+    <string name="Signup_label">Sign Up</string>
+    <string name="registor_button">Register</string>
+    <string name="firstname_hint">"  Firstname"</string>
+    <string name="lastname_hint">"  Lastname"</string>
+    <string name="email_address_hint">"  email Address"</string>
+    <string name="re_enter_password_hint">"  re-enter password"</string>
+    <string name="search">Search</string>
+    <string name="more">more</string>
+    <string name="page_title">News Feed</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="api_key"></string> <!-- add google firebase api key here -->
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="sendEmail">Send Email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_email">Please enter email address</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="general">General</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+    <string name="done">done</string>
+    <string name="sign_out">Sign Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="interests">interests</string>
+
+    <string-array name="tabTitles">
+        <item>Top Headlines</item>
+        <item>My News</item>
+        <item>Videos</item>
+    </string-array>
+    <string name="title_activity_read_news">ReadNewsActivity</string>
+
+</resources>

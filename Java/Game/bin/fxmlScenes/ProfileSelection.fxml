@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="600.0" style="-fx-border-color: #3333ff; -fx-border-width: 7; -fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProfileSelectionController">
+   <children>
+      <Button fx:id="playButton" defaultButton="true" layoutX="10.0" layoutY="204.0" mnemonicParsing="false" onAction="#handlePlayAction" prefHeight="132.0" prefWidth="307.0" style="-fx-background-color: black;" text="PLAY" textFill="#d0ff00" AnchorPane.leftAnchor="20.0" AnchorPane.bottomAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Broadway" size="40.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="editorButton" defaultButton="true" layoutX="260.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleEditorButton" prefHeight="132.0" prefWidth="307.0" style="-fx-background-color: black;" text="EDITOR" textFill="#d0ff00" AnchorPane.rightAnchor="20.0" AnchorPane.bottomAnchor="10.0" AnchorPane.topAnchor="10.0">
+      	<font>
+            <Font name="Broadway" size="40.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Label fx:id="currentLevel" layoutX="25.0" layoutY="86.0" prefHeight="54.0" prefWidth="323.0" text="CURRENT LEVEL: " textFill="#ccff00" AnchorPane.leftAnchor="20.0">
+         <font>
+            <Font name="Broadway" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Label fx:id="UserName" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="27.0" layoutY="32.0" prefHeight="54.0" prefWidth="323.0" text="PLAYER NAME" textAlignment="CENTER" textFill="#ccff00" textOverrun="CLIP">
+         <font>
+            <Font name="Broadway" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Label fx:id="dailyMessage" alignment="CENTER" layoutX="14.0" layoutY="497.0" prefHeight="61.0" prefWidth="587.0" text="DAILY MESSAGE HERE" textFill="#d0ff00" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Broadway" size="15.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Button fx:id="prevProfileButton" layoutX="30.0" layoutY="424.0" mnemonicParsing="false" onAction="#handlePrevProfileAction" prefHeight="42.0" prefWidth="188.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Prev" textFill="#d0ff00" AnchorPane.leftAnchor="40.0" AnchorPane.bottomAnchor="20.0">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Label fx:id="currentScore" layoutX="25.0" layoutY="158.0" prefHeight="54.0" prefWidth="334.0" text="CURRENT SCORE: " textFill="#ccff00" AnchorPane.leftAnchor="20.0">
+         <font>
+            <Font name="Broadway" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Button fx:id="nextProfileButton" layoutX="364.0" layoutY="424.0" mnemonicParsing="false" onAction="#handleNextProfileAction" prefHeight="42.0" prefWidth="188.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Next" textFill="#d0ff00" AnchorPane.rightAnchor="40.0" AnchorPane.bottomAnchor="20.0">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="editProfileButton" layoutX="30.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleEditProfileAction" prefHeight="42.0" prefWidth="188.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Edit" textFill="#d0ff00" AnchorPane.rightAnchor="40.0" AnchorPane.bottomAnchor="80.0">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="deleteProfileButton" layoutX="364.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleDeleteProfileAction" prefHeight="42.0" prefWidth="188.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Delete" textFill="#d0ff00" AnchorPane.leftAnchor="40.0" AnchorPane.bottomAnchor="80.0">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="newProfileButton" layoutX="428.0" layoutY="25.0" mnemonicParsing="false" onAction="#handleNewProfileAction" prefHeight="61.0" prefWidth="142.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="New" textFill="#d0ff00" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="QuitButton" cancelButton="true" layoutX="428.0" layoutY="110.0" mnemonicParsing="false" onAction="#handleQuitAction" prefHeight="61.0" prefWidth="142.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Quit" textFill="#d0ff00" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

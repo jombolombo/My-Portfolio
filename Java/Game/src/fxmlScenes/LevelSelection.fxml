@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="720.0" style="-fx-background-color: black; -fx-border-color: blue; -fx-border-width: 7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="levelSelectionController">
+   <children>
+      <Button fx:id="playButton" defaultButton="true" layoutX="225.0" layoutY="391.0" mnemonicParsing="false" onAction="#handlePlayLevelAction" prefHeight="37.0" prefWidth="271.0" style="-fx-background-color: black;" text="PLAY" textFill="#d0ff00">
+         <font>
+            <Font name="Broadway" size="62.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="leaderBoardButton" layoutX="225.0" layoutY="505.0" mnemonicParsing="false" onAction="#handleLeaderboardAction" prefHeight="16.0" prefWidth="271.0" style="-fx-background-color: black;" text="Leaderboard" textFill="#d0ff00">
+         <font>
+            <Font name="Broadway" size="31.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="prevLevelButton" layoutX="20.0" layoutY="215.0" mnemonicParsing="false" onAction="#handlePrevLevelAction" prefHeight="35.0" prefWidth="144.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Prev" textFill="#d0ff00">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Button fx:id="nextLevelButton" layoutX="554.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleNextLevelAction" prefHeight="53.0" prefWidth="144.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Next" textFill="#d0ff00">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+      <Label fx:id="levelNumber" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="7.0" prefHeight="83.0" prefWidth="708.0" text="LEVEL NUMBER" textAlignment="CENTER" textFill="#ccff00" textOverrun="CLIP">
+         <font>
+            <Font name="Broadway" size="51.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <ImageView fx:id="levelImage" fitHeight="321.0" fitWidth="334.0" layoutX="193.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="backButton" cancelButton="true" layoutX="225.0" layoutY="570.0" mnemonicParsing="false" onAction="#handleBackAction" prefHeight="16.0" prefWidth="271.0" style="-fx-background-color: black;" text="Back" textFill="#d0ff00">
+         <font>
+            <Font name="Broadway" size="31.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

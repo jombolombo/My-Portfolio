@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="editor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="900" style="-fx-border-color: #3333ff; -fx-border-width: 7; -fx-background-color: dimgrey;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EditorScreenController">
+    <children>
+    	<TextField fx:id="levelName" layoutX="20.0" layoutY="15.0" promptText="Enter level name" prefHeight="50.0" prefWidth="400.0"/>
+    	<Label text="Level Objects" layoutX="665.0" layoutY="15.0" prefHeight="50.0" prefWidth="400.0" textFill="#d0ff00">
+    		<font>
+            	<Font name="Broadway" size="30.0" />
+        	</font>
+         	<effect>
+            	<Glow level="1.0" />
+        	</effect>
+        </Label>
+        <ScrollPane fx:id="editorScrollPane" layoutX="25.0" layoutY="80.0" prefHeight="550.0" prefWidth="550.0" />
+		<GridPane layoutX="650.0" layoutY="70.0" prefHeight="174.0" prefWidth="264.0">
+			<columnConstraints>
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+				<ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+			</columnConstraints>
+			<rowConstraints>
+				<RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+				<RowConstraints maxHeight="31.777751922607422" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+				<RowConstraints maxHeight="31.777751922607422" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+			</rowConstraints>
+			<children>
+				<ImageView fx:id="view1" fitHeight="100.0" fitWidth="100.0" onDragDetected="#DragImage" pickOnBounds="true" preserveRatio="true"/>
+				<ImageView fx:id="view3" fitHeight="100.0" fitWidth="100.0" onDragDetected="#DragImage" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+				<ImageView fx:id="view2" fitHeight="100.0" fitWidth="100.0" onDragDetected="#DragImage" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+				<ImageView fx:id="view4" fitHeight="100.0" fitWidth="100.0" onDragDetected="#DragImage" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+				<ImageView fx:id="view5" fitHeight="100.0" fitWidth="100.0" onDragDetected="#DragImage" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+				<ImageView fx:id="view6" fitHeight="100.0" fitWidth="100.0" onDragDetected="#DragImage" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+			</children>
+		</GridPane>
+		<Button fx:id="next" layoutX="770.0" layoutY="380.0" prefHeight="20.0" prefWidth="100.0" mnemonicParsing="false" onAction="#nextSetOfImages" text="Next" />
+		<Button fx:id="previous" layoutX="650.0" layoutY="380.0" prefHeight="20.0" prefWidth="100.0" mnemonicParsing="false" onAction="#previousSetOfImages" text="Previous" />
+		<Label text="Cell Information" layoutX="600.0" layoutY="450.0" prefHeight="40.0" prefWidth="300.0" textFill="#d0ff00">
+			<font>
+            	<Font name="Broadway" size="30.0" />
+         	</font>
+         	<effect>
+            	<Glow level="1.0" />
+         	</effect>
+		</Label>
+		<ComboBox fx:id="tileInfo" layoutX="600.0" layoutY="500.0" prefHeight="20.0" prefWidth="120.0" promptText="Tile..."/>
+		<ComboBox fx:id="entityInfo" layoutX="750.0" layoutY="500.0" prefHeight="20.0" prefWidth="120.0" promptText="Entity..."/>
+      	<Button fx:id="backButton" cancelButton="true" layoutX="70.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleBackAction" prefHeight="61.0" prefWidth="142.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Back" textFill="#d0ff00" AnchorPane.leftAnchor="10.0">
+        	<font>
+            	<Font name="Broadway" size="25.0" />
+         	</font>
+         	<effect>
+            	<Glow level="1.0" />
+         	</effect>
+      	</Button>
+      	<Button fx:id="saveButton" cancelButton="true" layoutX="650.0" layoutY="650.0" mnemonicParsing="false" onAction="#handleSaveAction" prefHeight="61.0" prefWidth="142.0" style="-fx-border-color: blue; -fx-background-color: black; -fx-border-width: 3;" text="Save" textFill="#d0ff00" AnchorPane.rightAnchor="10.0">
+        	<font>
+            	<Font name="Broadway" size="25.0" />
+         	</font>
+         	<effect>
+            	<Glow level="1.0" />
+         	</effect>
+      	</Button>
+    </children>
+</AnchorPane>

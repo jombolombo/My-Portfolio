@@ -1,0 +1,11 @@
+10,10,,,,,,,,
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
+wall,player,floor,key:red,door:blue,floor,floor,floor,floor,wall
+wall,floor,floor,floor,wall,wall,wall,wall,floor,wall
+wall,floor,floor,floor,wall,key:yellow,floor,floor,floor,wall
+wall,floor,floor,floor,wall,wall,wall,wall,wall,wall
+wall,door:red,wall,wall,wall,floor,floor,key:green,floor,wall
+wall,floor,floor,key:blue,door:yellow,floor,floor,floor,floor,wall
+wall,wall,wall,wall,wall,floor,floor,floor,floor,wall
+wall,goal,door:green,floor,floor,floor,floor,floor,floor,wall
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall

@@ -1,0 +1,11 @@
+10,10,,,,,,,,
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
+wall,player,help:The green enemies are sharks. They can only move in water but be careful they can move twice as fast as normal enemies,water,water,water,water,water,water,wall
+wall,flippers,floor,water,water,water,water,water,enemy:shark,wall
+wall,water,water,water,water,water,water,water,water,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,water,water,water,water,water,water,water,water,wall
+wall,water,water,water,water,water,water,water,water,wall
+wall,water,water,water,water,water,water,water,enemy:shark,wall
+wall,floor,water,floor,water,floor,water,water,goal,wall
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall

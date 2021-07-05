@@ -1,0 +1,11 @@
+10,10,,,,,,,,
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
+wall,floor,floor,key:blue,door:blue,floor,floor,floor,floor,wall
+wall,floor,floor,floor,wall,floor,floor,floor,floor,wall
+wall,floor,floor,floor,wall,floor,floor,floor,floor,wall
+wall,floor,floor,wall,wall,wall,wall,floor,floor,wall
+wall,floor,floor,player,wall,enemy:smart,floor,floor,goal,wall
+wall,floor,floor,wall,wall,wall,wall,floor,floor,wall
+wall,floor,floor,floor,wall,floor,floor,floor,floor,wall
+wall,floor,floor,key:red,door:red,floor,floor,floor,floor,wall
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall

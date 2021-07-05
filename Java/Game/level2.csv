@@ -1,0 +1,16 @@
+15,15,,,,,,,,,,,,,
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
+wall,token,wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,fireBoots,wall
+wall,token,wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,water,wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,flippers,wall
+wall,floor,floor,floor,floor,floor,floor,wall,wall,wall,wall,wall,wall,wall,wall
+wall,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,floor,floor,player,wall
+wall,floor,floor,floor,floor,token,floor,wall,floor,floor,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,help:In order to walk over fire and water you need to get fire boots and flippers or you will get a game over,floor,wall,floor,floor,help:In this level you need to unlock this token door in order to reach the goal look for the 5 tokens by using the flippers and fireboots,floor,floor,floor,wall
+wall,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,wall
+wall,fire,fire,fire,fire,fire,fire,wall,wall,wall,door:token:5,wall,wall,wall,wall
+wall,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,floor,floor,floor,wall
+wall,floor,token,floor,floor,token,floor,wall,floor,goal,floor,floor,floor,floor,wall
+wall,floor,floor,floor,floor,floor,floor,wall,floor,floor,floor,floor,floor,floor,wall
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall
